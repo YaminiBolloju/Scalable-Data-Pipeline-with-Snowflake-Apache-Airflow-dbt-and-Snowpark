@@ -1,0 +1,13 @@
+my_project:
+  outputs:
+    dev:
+      account: txtazha-af11374 # Remove the 'https://' part
+      database: dbt_db
+      password: Bhumireddyvandana@123
+      role: dbt_role
+      schema: dbt_schema
+      threads: 10
+      type: snowflake
+      user: VANDANAREDDY
+      warehouse: dbt_wh
+  target: dev
