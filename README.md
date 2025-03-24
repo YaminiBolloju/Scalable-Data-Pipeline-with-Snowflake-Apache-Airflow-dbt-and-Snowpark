@@ -1,6 +1,4 @@
-Here’s a `README.md` file for your project:  
 
-```markdown
 # **Scalable Data Pipeline with Snowflake, Apache Airflow, dbt, and Snowpark**
 🔗 **Author:** Vandana Bhumireddygari  
 📧 **Contact:** [vandanabhumireddygari@gmail.com] 
@@ -15,25 +13,6 @@ This project demonstrates how to build an **end-to-end data pipeline** using **S
 - **Snowpark** – Python-based data science & analytics within Snowflake  
 - **Cosmos** – Integration framework for dbt within Airflow  
 
-## **Project Structure**  
-```
-📂 scalable-data-pipeline  
- ├── 📂 dags/                 # Airflow DAGs for pipeline automation  
- │   ├── dbt_pipeline.py      # DAG for dbt model execution  
- │   ├── snowpark_analysis.py # Snowpark-based analytics task  
- ├── 📂 dbt_project/          # dbt transformation models  
- │   ├── 📂 models/  
- │   │   ├── prepped_data.sql # Cleaned & merged booking data  
- │   │   ├── hotel_count.sql  # Aggregated hotel booking count  
- │   │   ├── avg_cost.sql     # 30-day rolling avg cost  
- ├── 📂 data/                 # Raw dataset files  
- │   ├── bookings_1.csv  
- │   ├── bookings_2.csv  
- │   ├── customers.csv  
- ├── profiles.yml             # Configuration file for dbt-Snowflake connection  
- ├── requirements.txt         # Python dependencies  
- ├── README.md                # Project documentation  
-```
 
 ## **Workflow**  
 
@@ -102,5 +81,3 @@ airflow dags trigger dbt_pipeline
 - Expand analytics with **ML-based predictions** on booking trends.  
   
 ```
-
-This `README.md` file provides a structured and professional overview of your project. Let me know if you need any refinements! 🚀
