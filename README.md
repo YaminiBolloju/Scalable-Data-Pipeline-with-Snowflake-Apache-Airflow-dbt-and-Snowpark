@@ -1,7 +1,7 @@
 
 # **Scalable Data Pipeline with Snowflake, Apache Airflow, dbt, and Snowpark**
-🔗 **Author:** Vandana Bhumireddygari  
-📧 **Contact:** [vandanabhumireddygari@gmail.com] 
+🔗 **Author:** Yamini Bolloju
+📧 **Contact:** [yaminibolloju9@gmail.com] 
 
 ## **Overview**  
 This project demonstrates how to build an **end-to-end data pipeline** using **Snowflake, Apache Airflow, dbt, and Snowpark** to efficiently ingest, transform, and analyze booking data. The pipeline is automated using Airflow DAGs and leverages Snowpark for advanced analytics.  
